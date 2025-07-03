@@ -27,7 +27,7 @@
     "@types/ws": "^8.5.10",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.7.3"
+    "vite-plugin-dts": "^4.5.4"
   },
   "dependencies": {
     "node-fetch": "^2.7.0",
