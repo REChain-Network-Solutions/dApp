@@ -2,8 +2,6 @@
 
 A decentralized application (dApp) built by **REChain Network Solutions** to deliver a secure, transparent, and trustless environment for blockchain-powered services.
 
-![REChain dApp Banner](https://rechain.network/banner.png) <!-- Optional: Replace with your actual image -->
-
 ---
 
 ## 🌐 Overview
