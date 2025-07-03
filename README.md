@@ -1,1 +1,2 @@
-# dApp
+# Library for DApps on OREChain
+

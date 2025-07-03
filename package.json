@@ -1,0 +1,36 @@
+{
+  "name": "odapp",
+  "version": "0.1.11",
+  "description": "Library for DApps on OREChain",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/modules/odapp-api/odapp-api.service.d.ts",
+  "main": "./dist/odapp.cjs",
+  "module": "./dist/odapp.js",
+  "exports": {
+    ".": {
+      "types": "./dist/modules/odapp-api/odapp-api.service.d.ts",
+      "browser": "./dist/odapp.js",
+      "import": "./dist/odapp.cjs",
+      "require": "./dist/odapp.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <script type="module">
+      import Client from './dist/odapp.js'; 
+      const client = new Client();
+      const result = await client.getBalances(['7VW3WKTRDRI7DE6345LEN23C3FDUOT7H']);
+      document.getElementById('console').innerHTML =JSON.stringify(result, null, 2);
+    </script>
+    <pre id="console"></pre>
+  </body>
+</html>
