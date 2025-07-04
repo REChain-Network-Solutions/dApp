@@ -1,89 +1,39 @@
 # REChain dApp
 
-A decentralized application (dApp) built by **REChain Network Solutions** to deliver a secure, transparent, and trustless environment for blockchain-powered services.
+The REChain dApp is a decentralized application for interacting with the REChain Network. It provides users with tools for managing assets, participating in governance, and accessing DeFi services.
 
----
+## Table of Contents
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Contributing](#contributing)
+- [License](#license)
 
-## 🌐 Overview
+## Features
+- Wallet integration
+- Asset management (stake, swap, transfer)
+- Governance participation (voting, proposals)
+- Cross-chain operations
 
-The REChain dApp serves as a frontend interface for interacting with REChain smart contracts and Web3 services. It enables users to authenticate with wallets, submit transactions, and interact with the decentralized internet.
-
-> **Project Status**: 🚧 In active development
-
----
-
-## 🚀 Features
-
-- 🔐 WalletConnect / MetaMask login
-- 📜 Smart contract interaction (read/write)
-- 🔁 Transaction signing
-- 🌍 Multi-chain support (EVM-compatible)
-- ☁️ Optional IPFS file uploads
-- 💡 Designed with scalability and decentralization in mind
-
----
-
-## 🧱 Architecture
-
-- **Frontend**: React / Next.js
-- **Contracts**: Solidity-based smart contracts
-- **Provider Layer**: Ethers.js + Web3 modal
-- **Optional**: IPFS / decentralized storage integration
-
----
-
-## 🛠 Getting Started
-
-### Prerequisites
-
-- Node.js >= 18
-- Yarn or npm
-- MetaMask or WalletConnect browser extension
-
-### Installation
+## Quick Start
 
 ```bash
 git clone https://github.com/REChain-Network-Solutions/dApp.git
 cd dApp
+cp .env.example .env
 npm install
 npm run dev
+```
 
-Then open your browser at: http://localhost:3000
+## Usage
+See [USAGE.md](USAGE.md) for details on app features.
 
-🔗 Connect to Blockchain
-Testnets: Goerli, Mumbai, Sepolia (add in .env)
+## Architecture
+Detailed design in [ARCHITECTURE.md](ARCHITECTURE.md).
 
-Mainnets: Ethereum, BNB Smart Chain, Polygon
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Update chain IDs and RPC endpoints in config/chain.ts
-
-🤝 Contributing
-We welcome contributions!
-
-bash
-Копировать
-Редактировать
-# Fork the repo
-# Create a branch: git checkout -b feature/YourFeature
-# Commit and push
-# Open a Pull Request 🚀
-Please follow the CONTRIBUTING.md file and stick to our code style guidelines using Prettier + ESLint.
-
-📄 License
-MIT © REChain Network Solutions
-
-📘 Documentation
-Check the full Wiki for:
-
-Full architecture
-
-Smart contract APIs
-
-FAQ and tips
-
-Community guidelines
-
-💬 Contact & Community
-Website: https://rechain.network
-
-Join us and help build a decentralized future 🚀
+## License
+Licensed under MIT. See [LICENSE](LICENSE).
